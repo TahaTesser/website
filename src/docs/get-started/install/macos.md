@@ -39,7 +39,7 @@ to be able to build and run your first Flutter app.
 
 {% include_relative _ios-setup.md %}
 
-{% include_relative _android-setup.md %}
+{% include_relative _android-setup-macos.md %}
 
 {% include_relative _web-setup.md %}
 
