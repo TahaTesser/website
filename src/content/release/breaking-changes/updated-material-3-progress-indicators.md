@@ -87,12 +87,12 @@ set the `ProgressIndicatorThemeData.year2023` property to `false` in your
 ```dart highlightLines=2
 return MaterialApp(
   theme: ThemeData(progressIndicatorTheme: const ProgressIndicatorThemeData(year2023: false)),
-        // ...
-        CircularProgressIndicator(
-          year2023: false,
-          value: 0.5,
-        ),
-        // ...
+  // ...
+  CircularProgressIndicator(
+    year2023: false,
+    value: 0.5,
+  ),
+  // ...
 ```
 
 ## Timeline

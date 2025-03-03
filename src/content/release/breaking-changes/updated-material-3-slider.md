@@ -56,16 +56,16 @@ To update your entire app to use the updated `Slider` design, set the
 ```dart highlightLines=2
 return MaterialApp(
   theme: ThemeData(sliderTheme: const SliderThemeData(year2023: false)),
-        // ...
-        Slider(
-          value: _value,
-          onChanged: (value) {
-            setState(() {
-              _value = value;
-            });
-          },
-        ),
-        // ...
+    // ...
+    Slider(
+      value: _value,
+      onChanged: (value) {
+        setState(() {
+          _value = value;
+        });
+      },
+    ),
+    // ...
 ```
 
 ## Timeline
